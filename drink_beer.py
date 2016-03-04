@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+
+# 题目：一瓶啤酒2块钱，两个空瓶可换一瓶啤酒，四个瓶盖可换一瓶啤酒
+# 问：10元钱最多可以喝多少瓶啤酒
+
 # exchange beer by bottles
 def getBeerByBottle(b):
     return b/2, b%2
